@@ -18,7 +18,7 @@ use Modules\Payment\Exceptions\PaymentException;
  * for marketplace authors, so verification must be enforced exactly as
  * a hosted gateway would, never skipped.
  */
-class SandboxPaymentDriver implements RefundableDriver, ConfigurableDriver
+class SandboxPaymentDriver implements ConfigurableDriver, RefundableDriver
 {
     public function credentialKeys(): array
     {
