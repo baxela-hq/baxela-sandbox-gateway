@@ -4,7 +4,7 @@
     "type": "baxela-extension",
     "license": "MIT",
     "keywords": ["baxela", "extension", "payment", "sandbox", "gateway"],
-    "version": "0.0.1",
+    "version": "0.0.2",
     "require": {
         "php": "^8.3"
     },

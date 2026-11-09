@@ -29,7 +29,7 @@ class SandboxServiceProvider extends Extension
             'slug' => 'baxela/baxela-sandbox-gateway',
             'name' => 'Sandbox Gateway',
             'type' => 'payment-driver',
-            'version' => '0.0.1',
+            'version' => '0.0.2',
             'compat' => ['core' => '^0.1'],
         ];
     }
