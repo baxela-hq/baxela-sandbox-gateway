@@ -1,0 +1,31 @@
+{
+    "name": "baxela/baxela-sandbox-gateway",
+    "description": "Sandbox payment gateway extension for Baxela — a zero-external-API payment driver for development, testing, and as the reference implementation for marketplace extension authors.",
+    "type": "baxela-extension",
+    "license": "MIT",
+    "keywords": ["baxela", "extension", "payment", "sandbox", "gateway"],
+    "require": {
+        "php": "^8.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Baxela\\Sandbox\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Baxela\\Sandbox\\SandboxServiceProvider"
+            ]
+        },
+        "baxela": {
+            "name": "Sandbox Gateway",
+            "slug": "baxela/baxela-sandbox-gateway",
+            "driver": "sandbox",
+            "type": "payment-driver",
+            "compat": {
+                "core": "^0.1"
+            }
+        }
+    }
+}
