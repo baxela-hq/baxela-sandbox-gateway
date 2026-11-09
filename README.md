@@ -68,7 +68,11 @@ grows dependencies of its own.
 Path-repository packages are symlinked; combined with
 `optimize-autoloader`, class discovery can lag after changes — run
 `composer dump-autoload` in the backend once if the provider class is
-not found. Dist installs (the marketplace, later) are unaffected.
+not found. Dist installs (the marketplace, later) are unaffected. The
+`version` field in composer.json is deliberate: composer's stability
+gate does not guess versions from git tags on path repositories, so the
+dev mount declares it explicitly and keeps it in sync with the git tag
+(the marketplace's dist flow is tag-driven and ignores the field).
 
 ## Identity notes for authors
 
