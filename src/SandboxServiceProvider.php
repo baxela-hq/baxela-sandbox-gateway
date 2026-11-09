@@ -30,7 +30,7 @@ class SandboxServiceProvider extends Extension
             'name' => 'Sandbox Gateway',
             'type' => 'payment-driver',
             'version' => '0.0.2',
-            'compat' => ['core' => '^99.0'],
+            'compat' => ['core' => '^0.1'],
         ];
     }
 
