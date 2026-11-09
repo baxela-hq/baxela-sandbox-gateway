@@ -25,7 +25,7 @@
             "driver": "sandbox",
             "type": "payment-driver",
             "compat": {
-                "core": "^0.1"
+                "core": "^99.0"
             }
         }
     }
