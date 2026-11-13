@@ -81,3 +81,8 @@ The manifest's `slug` is the **composer package name** (`baxela/baxela-sandbox-g
 on. The checkout-facing driver key (`sandbox`) is a separate concern:
 it is the config registry key and the webhook URL segment, chosen by
 the extension itself in `extensionBoot()`.
+
+## 0.0.3
+
+- Trivial change for the M.5 update proof.
+

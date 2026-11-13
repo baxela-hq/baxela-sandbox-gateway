@@ -1,10 +1,16 @@
 {
     "name": "baxela/baxela-sandbox-gateway",
-    "description": "Sandbox payment gateway extension for Baxela — a zero-external-API payment driver for development, testing, and as the reference implementation for marketplace extension authors.",
+    "description": "Sandbox payment gateway extension for Baxela \u2014 a zero-external-API payment driver for development, testing, and as the reference implementation for marketplace extension authors.",
     "type": "baxela-extension",
     "license": "MIT",
-    "keywords": ["baxela", "extension", "payment", "sandbox", "gateway"],
-    "version": "0.0.2",
+    "keywords": [
+        "baxela",
+        "extension",
+        "payment",
+        "sandbox",
+        "gateway"
+    ],
+    "version": "0.0.3",
     "require": {
         "php": "^8.3"
     },
